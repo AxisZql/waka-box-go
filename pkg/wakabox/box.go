@@ -4,15 +4,14 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/AxisZql/waka-box-go/third_party/wakatime-go/pkg/wakatime"
+	"github.com/google/go-github/github"
 	"io/ioutil"
 	"math"
 	"os"
 	"strconv"
 	"strings"
 	"unicode/utf8"
-
-	"github.com/YouEclipse/wakatime-go/pkg/wakatime"
-	"github.com/google/go-github/github"
 )
 
 // maxLineLength is the visible number of characters in a pinned gist box
